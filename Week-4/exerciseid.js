@@ -2,11 +2,11 @@
 function myLoadFunction()
 {
 
-	var element = document.getElementById("pageheading");
-	element.firstchild.nodeValue = 'New Heading';
+	var element1 = document.getElementById("pageheading");
+	element1.firstChild.nodeValue = 'New Heading';
 
-	var element = document.getElementById("paragraph");
-	element.firstchild.nodeValue = 'New Paragraph Text';
+	var element2 = document.getElementById("paragraph");
+	element2.firstChild.nodeValue = 'New Paragraph Text';
 
 }
 document.addEventListener('DOMContentLoaded',myLoadFunction);
